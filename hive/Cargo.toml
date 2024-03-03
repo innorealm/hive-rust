@@ -1,0 +1,16 @@
+[package]
+name = "hive-rust"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+description.workspace = true
+repository.workspace = true
+license.workspace = true
+
+[lib]
+name = "hive"
+
+[dependencies]
+anyhow.workspace = true
+byteorder.workspace = true
+thrift.workspace = true
